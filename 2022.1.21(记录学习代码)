@@ -1,0 +1,8 @@
+//学习代码的第一步
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio>
+int main()
+{
+  printf("hello world\n");
+  return 0;
+}
