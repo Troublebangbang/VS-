@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+include<sidio.h>
+int main()
+{
+	static int a = 0;
+	while (a < 100)
+	{
+		if (1==a%2)
+		{
+			printf("%d\n",a);
+		}
+		a++;
+	}
+	return 0;
+}
