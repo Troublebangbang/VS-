@@ -1,0 +1,16 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	int i = 0;
+	int n = 0;
+	int cun = 1;;
+	scanf("%d", &n);
+	for (i = 1; i <= n; i++)
+	{
+		cun = cun * i;
+	}
+	printf("%d\n", cun);
+	return 0;
+}
